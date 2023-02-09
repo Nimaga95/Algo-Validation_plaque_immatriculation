@@ -1,22 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/cppFiles/main.cc to edit this template
- */
-
-/* 
- * File:   main.cpp
- * Author: elhadji.nimaga
- *
- * Created on 9 février 2023, 00 h 23
- */
-#include <iostream>
 #include <string>
+#include <iostream>
+#include <ostream>
+#include <ctype.h>
 #include <cstdlib>
+#include <math.h>
+#include "validationimmatriculation.h" //on inclut le fichier H
 
 using namespace std;
 
-int main() {
 
-    return 0;
+
+int
+main ()
+{
+    cout <<"Tests de Validation des fonctions" << endl;
+
+  cout <<validerNiv ("3VWFE21C04M000007");
+  return 0;
 }
-
